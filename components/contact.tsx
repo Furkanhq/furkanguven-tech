@@ -30,10 +30,10 @@ export function Contact() {
 
         <Reveal delay={0.24}>
           <a
-            href="mailto:frknguvenli@gmail.com"
+            href="mailto:info@furkanguven.tech"
             className="link-brass mt-14 inline-block break-all font-display text-[clamp(1.4rem,4.2vw,3.4rem)] italic text-bone md:mt-20"
           >
-            frknguvenli@gmail.com
+            info@furkanguven.tech
           </a>
         </Reveal>
 

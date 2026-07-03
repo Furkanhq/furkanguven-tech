@@ -82,7 +82,7 @@ export const projects: Project[] = [
   },
   {
     index: "03",
-    title: "Zumra — A Private Product for Two",
+    title: "A Private Product for Two",
     year: "2026",
     status: "Live — private deployment",
     tags: ["Full-Stack Product", "Next.js 16", "Supabase"],

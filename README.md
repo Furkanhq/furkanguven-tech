@@ -11,7 +11,7 @@ pay for outcomes, not hours. Three case studies, curated ruthlessly:
 |---|--------|----------------|
 | 01 | AI Concierge for Luxury Real Estate | Conversational AI + CRM orchestration at production grade (reply-first hot path, kill switch, graceful degradation) |
 | 02 | The Shorts Factory | Autonomous media pipelines (Whisper → caption engine → MoviePy → scheduled YouTube publish) |
-| 03 | Zumra | Full-stack product polish + hand-rolled security (scrypt, HMAC scoped sessions, RLS) |
+| 03 | A Private Product for Two | Full-stack product polish + hand-rolled security (scrypt, HMAC scoped sessions, RLS) |
 
 Everything else (docs mirrors, small utilities) is excluded or demoted to the
 three-line "Also in the lab" index — breadth without dilution.
@@ -36,8 +36,8 @@ typographic, one metallic accent. No cards, no shadows, no template DNA.
 ## Stack & rationale
 
 - **Next.js 16 (App Router) + React 19** — same stack proven in production on
-  zumra.furkanguven.tech; static-rendered single route, so it ships as pure
-  HTML/CSS with a small motion runtime.
+  a private client deployment; static-rendered single route, so it ships as
+  pure HTML/CSS with a small motion runtime.
 - **Tailwind CSS v4** — design tokens live in `@theme` inside
   `app/globals.css`; no config file.
 - **Framer Motion 12** — only for the hero orchestration and scroll reveals;
