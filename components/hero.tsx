@@ -31,7 +31,7 @@ export function Hero() {
 
         <h1 className="font-display text-[clamp(2.7rem,10.5vw,9.5rem)] leading-[1.02] tracking-[-0.02em]">
           {LINES.map((line, i) => (
-            <span key={line.text} className="block overflow-hidden pb-[0.06em]">
+            <span key={line.text} className="block overflow-hidden pb-[0.2em]">
               <motion.span
                 className={`block ${
                   line.accent ? "italic text-brass" : "text-bone"
