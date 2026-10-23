@@ -4,20 +4,20 @@ const CAPABILITIES = [
   {
     index: "01",
     title: "Conversational AI, wired to revenue",
-    body: "Concierge agents that answer in seconds, in the client's language — qualifying leads, searching live inventory, booking real calendar slots. Integrated with your CRM, with a human override built in, because an agent without a kill switch is a liability.",
-    tools: "n8n · LLM agents · Twilio · Airtable · Cal.com · Redis · Telegram",
+    body: "Agents that answer in seconds — qualifying leads, searching live inventory, booking real calendar slots. Integrated with your CRM, with the rules in code and a human always able to take over, because an agent without a kill switch is a liability.",
+    tools: "n8n · LLM agents · WhatsApp Cloud API · Postgres · Airtable · Cal.com",
   },
   {
     index: "02",
-    title: "Pipelines that run unattended",
-    body: "End-to-end automation for work that used to be a job: script, voice, render, publish. Stateless services behind authenticated contracts, engineered to degrade gracefully — a single failure never takes the system down.",
-    tools: "Python · FastAPI · Docker · Whisper · MoviePy · ElevenLabs · YouTube API",
+    title: "Systems that fail safely",
+    body: "Software for operations that can't stop: offline-first, single-writer, hardcoded safety limits, tested against crashes. Engineered so a single failure never takes the whole system down.",
+    tools: "Node.js · Electron · SQLite · Python · systemd · Cloudflare R2",
   },
   {
     index: "03",
     title: "Products, polished to the pixel",
-    body: "Full-stack web applications with security taken personally — hardened authentication, row-level security, scoped sessions — and the kind of micro-interactions enterprise users rarely get to enjoy.",
-    tools: "Next.js · React · TypeScript · Tailwind · Framer Motion · Supabase · Vercel",
+    body: "Websites and applications where the craft shows — considered typography, motion that earns its place, measured performance budgets — delivered in phases, with every account in the client's own name.",
+    tools: "Next.js · Astro · GSAP · TypeScript · Tailwind · Cloudflare",
   },
 ];
 

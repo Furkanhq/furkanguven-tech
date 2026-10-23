@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     template: "%s — Furkan Güven",
   },
   description:
-    "Bespoke AI systems for revenue-critical operations: conversational concierges wired into your CRM, autonomous content pipelines, and full-stack products polished to the pixel.",
+    "Bespoke systems for operations that can't stop: conversational agents wired into your CRM, software engineered to fail safely, and products polished to the pixel.",
   keywords: [
     "AI automation",
     "LLM agents",
@@ -48,14 +48,14 @@ export const metadata: Metadata = {
     siteName: "Furkan Güven",
     title: "Furkan Güven — AI Systems & Automation Engineer",
     description:
-      "Bespoke AI systems for revenue-critical operations. Conversational AI, autonomous pipelines, full-stack products.",
+      "Bespoke systems for operations that can't stop. Conversational AI, failure-safe software, polished products.",
     locale: "en_US",
   },
   twitter: {
     card: "summary",
     title: "Furkan Güven — AI Systems & Automation Engineer",
     description:
-      "Bespoke AI systems for revenue-critical operations. Conversational AI, autonomous pipelines, full-stack products.",
+      "Bespoke systems for operations that can't stop. Conversational AI, failure-safe software, polished products.",
   },
   robots: { index: true, follow: true },
 };

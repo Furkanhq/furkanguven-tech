@@ -6,7 +6,7 @@ import { EASE } from "./reveal";
 const LINES: { text: string; accent?: boolean }[] = [
   { text: "AI systems that" },
   { text: "answer, book," },
-  { text: "and publish —" },
+  { text: "and operate —" },
   { text: "unattended.", accent: true },
 ];
 
@@ -53,9 +53,9 @@ export function Hero() {
             transition={{ duration: 1, delay: 0.95, ease: EASE }}
             className="max-w-xl text-base leading-relaxed text-muted md:text-lg"
           >
-            Bespoke automation for revenue-critical operations — conversational
-            concierges wired into your CRM, content pipelines that run while
-            you sleep, and full-stack products polished to the pixel.
+            Bespoke systems for operations that can&apos;t stop — conversational
+            agents wired into your CRM, software engineered to fail safely, and
+            products polished to the pixel.
           </motion.p>
 
           <motion.a

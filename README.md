@@ -4,17 +4,18 @@ Premium portfolio for **Furkan Güven — AI Systems & Automation Engineer**.
 
 ## Positioning
 
-The site sells one thing: bespoke, revenue-critical AI systems for clients who
-pay for outcomes, not hours. Three case studies, curated ruthlessly:
+The site sells one thing: bespoke systems for operations that can't stop, for
+clients who pay for outcomes, not hours. Four case studies, nothing else:
 
-| # | System | What it proves |
-|---|--------|----------------|
-| 01 | AI Concierge for Luxury Real Estate | Conversational AI + CRM orchestration at production grade (reply-first hot path, kill switch, graceful degradation) |
-| 02 | The Shorts Factory | Autonomous media pipelines (Whisper → caption engine → MoviePy → scheduled YouTube publish) |
-| 03 | A Private Product for Two | Full-stack product polish + hand-rolled security (scrypt, HMAC scoped sessions, RLS) |
+| # | System | Status | What it proves |
+|---|--------|--------|----------------|
+| 01 | WhatsApp AI CRM for Real-Estate Agencies | Pilot build | Conversational AI + CRM integration with the rules in code (signature checks, idempotent ingest, state machine, human takeover) |
+| 02 | Nefista POS | Deployed on-site | Offline-first software that cannot stop (single-writer SQLite, route-level isolation, verified backups) |
+| 03 | PlanB — Concept Café | In progress | Phased client delivery, owner-owned accounts, cinematic web work |
+| 04 | Grid + DCA Hybrid Trading Bot | Paper trading | Risk engineering and honest evaluation (walk-forward backtests, hardcoded fail-safes) |
 
-Everything else (docs mirrors, small utilities) is excluded or demoted to the
-three-line "Also in the lab" index — breadth without dilution.
+Statuses are literal. Do not upgrade one without the matching change in the
+source project's notes. `lib/projects.ts` is the only place to edit them.
 
 ## Design system
 
@@ -60,7 +61,7 @@ components/
   nav.tsx           fixed nav, Istanbul clock, availability signal
   hero.tsx          masked staggered reveal
   marquee.tsx       CSS capability ticker
-  work.tsx          case studies + schematic panels + lab index
+  work.tsx          case studies + schematic panels
   capabilities.tsx  three-column service architecture
   process.tsx       four-step engagement model
   contact.tsx       CTA + footer

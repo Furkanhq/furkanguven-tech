@@ -1,11 +1,11 @@
 const ITEMS = [
-  "WhatsApp Concierges",
+  "WhatsApp Agents",
   "LLM Agent Design",
-  "CRM Orchestration",
+  "CRM Integration",
   "Booking Automation",
-  "Content Pipelines",
-  "Media Engineering",
-  "Next.js Products",
+  "Offline-First Software",
+  "Failure-Safe Systems",
+  "Web & Desktop Products",
   "Self-Hosted Infrastructure",
 ];
 

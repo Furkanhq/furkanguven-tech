@@ -1,4 +1,4 @@
-import { projects, lab, type Project } from "@/lib/projects";
+import { projects, type Project } from "@/lib/projects";
 import { Reveal } from "./reveal";
 
 function Schematic({ flow }: { flow: string[] }) {
@@ -103,7 +103,7 @@ export function Work() {
               Selected <span className="italic text-brass">work</span>
             </h2>
             <p className="max-w-sm text-right font-mono text-[11px] uppercase leading-loose tracking-[0.22em] text-muted md:text-left">
-              (03) systems — chosen for
+              ({String(projects.length).padStart(2, "0")}) systems — chosen for
               <br />
               the problems they retire
             </p>
@@ -113,27 +113,6 @@ export function Work() {
         {projects.map((p) => (
           <CaseStudy key={p.index} project={p} />
         ))}
-
-        {/* lab index */}
-        <div className="border-t border-line py-16 md:py-20">
-          <Reveal>
-            <p className="mb-10 font-mono text-[11px] uppercase tracking-[0.3em] text-muted">
-              Also in the lab
-            </p>
-          </Reveal>
-          <div className="grid gap-10 md:grid-cols-3">
-            {lab.map((item, i) => (
-              <Reveal key={item.title} delay={0.08 * i}>
-                <h4 className="font-display text-xl italic text-bone">
-                  {item.title}
-                </h4>
-                <p className="mt-3 text-sm leading-relaxed text-muted">
-                  {item.body}
-                </p>
-              </Reveal>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   );
